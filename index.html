@@ -4,9 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramen Rating App</title>
+    <title>Ramen Rater</title>
 </head>
 <body>
+    <h1>Ramen Rater</h1>
+
+    <div id="ramen-menu">
+
+        <div id="ramen-detail">
+            <img id="ramen-image" src="./images/shoyu.jpg" alt="">
+           <!----<img id="ramen-image" src="./images/shoyu.jpg" alt="">-->
+            <h2 id="ramen-name"></h2>
+            <h3 id="ramen-restaurant"></h3>
+            <p id="ramen-comment"></p>
+            <p id="ramen-rating"></p>
+        </div>
+    </div>
+
+    <h2>Add New Ramen</h2>
+    <form id="new-ramen-form">
+        <input type="text" name="Name" id="name">
+        <input type="text" name="Restaurant" id="restaurant">
+        <input type="text" name="Image URL" id="image">
+        <input type="number" name="Rating" id="rating">
+        <input type="text" name="Comment" id="comment">
+    </form>
+
+
     <script src="index.js"></script>
 </body>
 </html>
