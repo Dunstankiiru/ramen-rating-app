@@ -24,19 +24,20 @@
     <h2>Add New Ramen</h2>
     <form id="new-ramen-form">
         <label for="name">Name:</label>
-        <input type="text" id="name">
+        <input type="text" id="name" required>
 
         <label for="restaurant">Restaurant:</label>
-        <input type="text" id="restaurant">
+        <input type="text" id="restaurant" required>
 
         <label for="image">Image:</label>
-        <input type="text" id="image">
+        <input type="text" id="image" required>
 
         <label for="rating">Rating:</label>
-        <input type="number" id="rating">
+        <input type="number" id="rating" min="1" max="10" required>
+        <!--Restricts the ratings from 1 to 10-->
 
         <label for="comment">Comment:</label>
-        <input type="text" name="Comment" id="comment">
+        <input type="text" name="Comment" id="comment" required>
         
         <button type="submit">Create</button>
     </form>

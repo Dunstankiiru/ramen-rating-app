@@ -52,7 +52,38 @@ h1{
 #ramen-detail h2, #ramen-detail h3, #ramen-detail p{
     margin: 10px 0;
 }
+#ramen-detail input {
+   width: 100%;
+   padding: 8px;
+   margin-top: 5px;
+   border: 1px solid black;
+   border-radius: 4px;
+   font-size: 14px;
+}
 
+button{
+    padding: 10px;
+    margin-top: 15px;
+    background-color: black;
+    color: #f8f8f8;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: blue;
+}
+
+#delete-ramen{
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+}
+#delete-ramen:hover {
+    background-color: lightcoral;
+}
 form{
     background-color: white;
     padding: 20px;

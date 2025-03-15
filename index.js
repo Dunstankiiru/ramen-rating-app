@@ -70,12 +70,8 @@ function addSubmitListener() {
     });
 }
 
-//function to hande updates
 
-function addupdateListener(){
-    const ratingInput = document.getElementById("ramen-rating");
-    const commentInput = document.getElementById("ramen-comment");
-}
+    
 
 // Main function to initialize the app
 
