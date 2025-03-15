@@ -1,45 +1,52 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
     background-color: #f8f8f8;
 }
 
 h1{
     background-color: #000000;
     color: white;
-    padding: 15px;
+    padding: 15px 0;
+    font-size: 25px;
 }
-
-#ramen-menu {
+.menu-container {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin: 20px 0;
-    padding: 10px;
-    background-color: white;
-    /*border: 2px solid black;*/
+    gap: 10px;
+    padding: 15px;
+    overflow-x: auto;
+    background-color: #f8f8f8;
+    border-bottom: 2px solid black;
 }
 
-#ramen-menu img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+.menu-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
     cursor: pointer;
-    border-radius: 10px;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s;
 }
 
-#ramen-menu img:hover{
+.menu-container img:hover {
     transform: scale(1.1);
 }
+#ramen-detail {
+   margin-top: 20px;
+   padding: 20px;
+   background-color: white;
+   border: 2px solid black;
+   display: inline-block;
+   text-align: left ;
+}
 
-#ramen-detail{
-    background-color: white;
-    padding: 1px;
-    border: 2px solid black;
-    width: 50%;
-    margin: 0 auto;
+#ramen-detail img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 #ramen-detail h2, #ramen-detail h3, #ramen-detail p{
@@ -54,7 +61,8 @@ form{
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
+    text-align: left;
 }
 form label{
     font-weight: bold;
@@ -67,12 +75,15 @@ form label{
 
 form input {
     padding: 8px;
+    margin-top: 5px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 4px;
+    width: 100%;
 }
 
 form button{
-    padding: 8px;
+    padding: 10px;
+    margin-top: 15px;
     background-color: black;
     color: #f8f8f8;
     border: none;
