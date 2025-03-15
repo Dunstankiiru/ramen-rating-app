@@ -56,6 +56,14 @@ form{
     flex-direction: column;
     gap: 15px;
 }
+form label{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: black;
+    display: block;
+    text-align: left
+}
 
 form input {
     padding: 8px;
@@ -70,4 +78,9 @@ form button{
     border: none;
     cursor: pointer;
     font-size: 16px;
+}
+
+form button:hover {
+    background-color: burlywood;
+    color: #f8f8f8;
 }
