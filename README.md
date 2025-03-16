@@ -12,3 +12,14 @@ This is a web application that allows users to browse through the various ramen 
 -Add New Ramen- A user can add a new ramen by filling out the form.
 
 -Auto-Display First Ramen- The Application displays the first ramen's details upon page load.
+
+# 🛠️  Techstacks used
+
+# HTML 
+For the webpage structure and Form
+
+# CSS
+Styles the page
+
+# JavaScript
+For DOM manipulation and webpage interactivity
