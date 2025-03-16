@@ -11,45 +11,48 @@
     <header>
         <div class="logo"><span>Dunstan</span>Kiiru</div>
     </header>
-    <h1>Ramen Rater</h1>
+    <h1>Ramen Rater</h1>        
 
-    <div id="ramen-menu" class="menu-container"> </div>
+    <div class=" content-wrapper">
+        <div class="wrapper">
+            <div id="ramen-menu" class="menu-container"></div>
 
-        <div id="ramen-detail">
-            <img id="ramen-image" src="" alt="Ramen">
-            <h2><strong>Name:</strong><span id="ramen-name"></span></h2>
-            <h3><strong>Restaurant:</strong> <span id="ramen-restaurant"></span></h3>
-            <p><strong>Rating:</strong><span id="ramen-rating"></span></p>
-            <p><strong>Comment:</strong><span id="ramen-comment"></span></p> 
+             <div id="ramen-detail">
+                <img id="ramen-image" src="" alt="Ramen">
+                <h2><strong>Name:</strong><span id="ramen-name"></span></h2>
+                <h3><strong>Restaurant:</strong> <span id="ramen-restaurant"></span></h3>
+                <p><strong>Rating:</strong><span id="ramen-rating"></span></p>
+                <p><strong>Comment:</strong><span id="ramen-comment"></span></p> 
         </div>
 
     <!--Delete and Update Buttons-->
-        <div id = "action-buttons" style="display: none;">
-            <button id="Update-btn">update</button>
-            <button id="Delete-btn">Delete</button>
-        </div>
+            <div id = "action-buttons" style="display: none;">
+                <button id="update-ramen">update</button>
+                <button id="delete-ramen">Delete</button>
+            </div>
    
-    <h2>Add New Ramen</h2>
-    <form id="new-ramen-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" required>
+            <h2>Add New Ramen</h2>
+            <form id="new-ramen-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
 
-        <label for="restaurant">Restaurant:</label>
-        <input type="text" id="restaurant" required>
+                <label for="restaurant">Restaurant:</label>
+                <input type="text" id="restaurant" required>
 
-        <label for="image">Image:</label>
-        <input type="text" id="image" required>
+                <label for="image">Image:</label>
+                <input type="text" id="image" required>
 
-        <label for="rating">Rating:</label>
-        <input type="number" id="rating" min="1" max="10" required>
-        <!--Restricts the ratings from 1 to 10-->
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" min="1" max="10" required>
+                 <!--Restricts the ratings from 1 to 10-->
 
-        <label for="comment">Comment:</label>
-        <input type="text" name="Comment" id="comment" required>
+                <label for="comment">Comment:</label>
+                <input type="text" name="Comment" id="comment" required>
         
-        <button type="submit">Create</button>
-    </form>
-
+                <button type="submit">Create</button>
+            </form>
+        </div>
+    </div>
 
     <script src="index.js"></script>
 
