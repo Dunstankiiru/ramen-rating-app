@@ -15,11 +15,11 @@ This is a web application that allows users to browse through the various ramen 
 
 # 🛠️  Techstacks used
 
-# HTML 
+1.HTML 
 For the webpage structure and Form
 
-# CSS
+2.CSS
 Styles the page
 
-# JavaScript
+3.JavaScript
 For DOM manipulation and webpage interactivity
