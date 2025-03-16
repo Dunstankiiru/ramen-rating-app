@@ -3,18 +3,24 @@ document.addEventListener("DOMContentLoaded", main);
 
 // Predefined ramen data with GitHub image URLs
 const ramens = [
-    { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "shoyu.jpg", rating: 5, comment: "Delicious!" },
-    { id: 2, name: "Kojiro Ramen", restaurant: "Menya", image: "kojiro.jpg", rating: 4, comment: "Very flavorful!" },
-    { id: 3, name: "Naruto Ramen", restaurant: "Naruto", image: "naruto.jpg" },
+    { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "./resources/images/shoyu.jpg", rating: 5, comment: "Delicious!" },
+    { id: 2, name: "Kojiro Ramen", restaurant: "Menya", image: "./resources/images/kojiro.jpg", rating: 4, comment: "Very flavorful!" },
+    { id: 3, name: "Naruto Ramen", restaurant: "Naruto", image: "./resources/images/naruto.jpg" },
     { id: 4, name: "Nirvana Ramen", restaurant: "Nirvanaa", image: "nirvana.jpg" },
     { id: 5, name: "Gyukotsu Ramen", restaurant: "Gyukotsu-ya", image: "gyukotsu.jpg" }
 ];
 
-//Display Ramen Images
+//Function that assists to display Ramen Images
 
 function displayRamens() {
     const ramenMenu = document.getElementById("ramen-menu");
     ramenMenu.innerHTML = "";
+
+    //Display the details for the first ramen automatically on page load without user interaction.
+    if (ramens.length > 0) {
+        handleClick(ramens[0]); 
+    }
+
 
     ramens.forEach(ramen => {
         const img = document.createElement("img");
@@ -35,7 +41,7 @@ function handleClick(ramen) {
     document.getElementById("ramen-comment").textContent = ramen.comment;
 }
 
-//Function to handle form 
+//Function to handle form submission
 
 function addSubmitListener() {
     const ramenForm = document.getElementById("new-ramen-form");
