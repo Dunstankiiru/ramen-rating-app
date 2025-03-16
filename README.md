@@ -1,9 +1,9 @@
 # ramen-rating-app
 
-# 📌 About
+# # 📌 About
 This is a web application that allows users to browse through the various ramen available, view details like name, restaurant, rating and comments and also add their own ramen
 
-# 📜 Features
+# # 📜 Features
 
 - Display Ramen Images - It shows a list of ramen dishes in the menu.
 
@@ -13,7 +13,7 @@ This is a web application that allows users to browse through the various ramen 
 
 - Auto-Display First Ramen - The Application displays the first ramen's details upon page load.
 
-# 🛠️  Techstacks used
+## 🛠️  Techstacks used
 
 - HTML - For the webpage structure and Form
 
@@ -21,18 +21,18 @@ This is a web application that allows users to browse through the various ramen 
 
 - JavaScript - For DOM manipulation and webpage interactivity
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 
-# 1 Cloning the Repository using ssh
+### 1 Cloning the Repository using ssh
 
 -   git clone git@github.com:Dunstankiiru/ramen-rating-app.git
 
-# 2 Opening the project
+### 2 Opening the project
 
 -   By using the cd command, move to project directory and open the cloned folder using code.
 
 - Open the index.html in your browser using the liveserver.
 
-# 3 Add New Ramen Dishes
+### 3 Add New Ramen Dishes
 
 - Fill in the form and click on the "Create" Button to add a new Ramen dish.
