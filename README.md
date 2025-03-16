@@ -5,7 +5,7 @@ This is a web application that allows users to browse through the various ramen 
 
 ## 📜 Features
 
-- Display Ramen Images - It shows a list of ramen dishes in the menu.
+- Display Ramen Images - It shows a list of ramen dishes in the menu.  
 
 - View Ramen Details - When a Ramen is clicked, it displays the name, restaurant, rating and comments made.
 
@@ -37,12 +37,4 @@ This is a web application that allows users to browse through the various ramen 
 
 - Fill in the form and click on the "Create" Button to add a new Ramen dish.
 
-## 📂 Ramen-Rating-App Structure
-
-ramen-rating-app/
-- resource/images/    # Contains ramen images
-- index.html          # Main HTML file
-│── styles.css          # CSS for styling
-│── script.js           # JavaScript logic
-│── README.md           # Project documentation
-│── removed.js          # Removed Javascript Code(update and delete options)
+## How to Use
