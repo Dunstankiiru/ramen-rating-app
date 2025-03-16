@@ -6,10 +6,10 @@ const ramens = [
     { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "/resources/images/shoyu.jpg", rating: 5, comment: "Delicious!" },
     { id: 2, name: "Kojiro Ramen", restaurant: "Menya", image: "./resources/images/kojiro.jpg", rating: 4, comment: "Very flavorful!" },
     { id: 3, name: "Naruto Ramen", restaurant: "Naruto", image: "./resources/images/naruto.jpg", rating: 7, Comment:"Well Cooked!" },
-    { id: 4, name: "Nirvana Ramen", restaurant: "Nirvanaa", image: "./resources/images/nirvana.jpg" },
-    { id: 5, name: "Gyukotsu Ramen", restaurant: "Gyukotsu-ya", image: "./resources/images/gyukotsu.jpg" },
-    { id: 6, name: "Noodles Ramen", restaurant: "Chu San", image: "./resources/images/noodles.jpg" },
-     { id: 7, name: "Urchins Ramen", restaurant: "Father Secret", image: "./resources/images/urchins.jpg" }
+    { id: 4, name: "Nirvana Ramen", restaurant: "Nirvanaa", image: "./resources/images/nirvana.jpg", rating: 3, comment:"Too Watery!" },
+    { id: 5, name: "Gyukotsu Ramen", restaurant: "Gyukotsu-ya", image: "./resources/images/gyukotsu.jpg", rating: 5, comment:"Tasty!" },
+    { id: 6, name: "Noodles Ramen", restaurant: "Chu San", image: "./resources/images/noodles.jpg", rating: 8, comment:"Finger-licking sweet!" },
+     { id: 7, name: "Urchins Ramen", restaurant: "Father Secret", image: "./resources/images/urchins.jpg",rating:6, comment:"Delicious, one plate ain't enough! haha" }
 
 ];
 
