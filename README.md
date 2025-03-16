@@ -1,9 +1,9 @@
 # ramen-rating-app
 
-# # 📌 About
+## 📌 About
 This is a web application that allows users to browse through the various ramen available, view details like name, restaurant, rating and comments and also add their own ramen
 
-# # 📜 Features
+## 📜 Features
 
 - Display Ramen Images - It shows a list of ramen dishes in the menu.
 
