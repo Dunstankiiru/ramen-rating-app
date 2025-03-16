@@ -41,5 +41,5 @@ This is a web application that allows users to browse through the various ramen 
 
 - This project is open-source and feel free to use it  
 
-#  🎯 Created with ❤️ by [AlexDunstanKiiruMureithi]
+###  🎯 Created with ❤️ by Alex Dunstan Kiiru Mureithi
 
