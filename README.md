@@ -37,4 +37,9 @@ This is a web application that allows users to browse through the various ramen 
 
 - Fill in the form and click on the "Create" Button to add a new Ramen dish.
 
-## How to Use
+## 📜 License
+
+- This project is open-source and feel free to use it  
+
+#  🎯 Created with ❤️ by [AlexDunstanKiiruMureithi]
+
