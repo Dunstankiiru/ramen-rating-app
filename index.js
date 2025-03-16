@@ -34,7 +34,7 @@ function displayRamens() {
     });
 }
 
-//Function to display ramen details when a ramen image is clicked
+//Function to display ramen details when an image is clicked
 
 function handleClick(ramen) {
     document.getElementById("ramen-image").src = ramen.image;
@@ -42,7 +42,12 @@ function handleClick(ramen) {
     document.getElementById("ramen-restaurant").textContent = ramen.restaurant;
     document.getElementById("ramen-rating").textContent = ramen.rating;
     document.getElementById("ramen-comment").textContent = ramen.comment;
+
+    // showing the action buttons
+
+    document.getElementById("action-buttons").style.display = "block";
 }
+
 
 //Function to handle form submission
 
