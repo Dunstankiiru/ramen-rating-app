@@ -36,3 +36,14 @@ This is a web application that allows users to browse through the various ramen 
 ### Add New Ramen Dishes
 
 - Fill in the form and click on the "Create" Button to add a new Ramen dish.
+
+## 📂 Ramen-Rating-App Structure
+
+ramen-rating-app/
+|
+│── resource/images/    # Contains ramen images
+│── index.html          # Main HTML file
+│── styles.css          # CSS for styling
+│── script.js           # JavaScript logic
+│── README.md           # Project documentation
+│── removed.js          # Removed Javascript Code(update and delete options)
