@@ -35,7 +35,7 @@ function displayRamens() {
     });
 }
 
-//Function to display ramen details when an image is clicked
+// ramen details function when an image is clicked
 
 function handleClick(ramen) {
     document.getElementById("ramen-image").src = ramen.image;
@@ -44,7 +44,12 @@ function handleClick(ramen) {
     document.getElementById("ramen-rating").textContent = ramen.rating;
     document.getElementById("ramen-comment").textContent = ramen.comment;
 
+    // values in the input fields for update
+    document.getElementById("rating").value = ramen.rating;
+    document.getElementById("comment").value = ramen.comment;
+
     selectedRamen = ramen;
+   
     // showing the action buttons
 
     document.getElementById("action-buttons").style.display = "block";
@@ -88,29 +93,26 @@ function addSubmitListener() {
 }
 
 //update function
-function addupdateListener() {
-    const ratingInput = document.getElementById("ramen-rating");
-    const commentInput = document.getElementById("ramen-comment");
+function addUpdateListener() {
+    const updateButton = document.getElementById("update-ramen");
 
-    ratingInput.addEventListener("input", () => {
+    updateButton.addEventListener("click", () => {
         if (selectedRamen) {
-            selectedRamen.rating = ratingInput.value;
-        }
-    });
+            const ratingInput = document.getElementById("rating").value;
+            const commentInput = document.getElementById("comment").value;
 
-    commentInput.addEventListener("input", () => {
-        if (selectedRamen) {
-            selectedRamen.rating = ratingInput.value;
-        }
-    });
+            // Find the ramen in the array and update it
+            const index = ramens.findIndex((r) => r.id === selectedRamen.id);
+            if (index !== -1) {
+                ramens[index].rating = ratingInput;
+                ramens[index].comment = commentInput;
+            }
 
-    commentInput.addEventListener("input", () => {
-        if (selectedRamen) {
-            selectedRamen.comment = commentInput.value;
+            // Refresh the displayed ramen details
+            handleClick(selectedRamen);
         }
     });
 }
-
 // delete function
 
 function addDeleteListener() {
