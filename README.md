@@ -23,16 +23,16 @@ This is a web application that allows users to browse through the various ramen 
 
 ## 🚀 Getting Started
 
-### 1 Cloning the Repository using ssh
+### Cloning the Repository using ssh
 
 -   git clone git@github.com:Dunstankiiru/ramen-rating-app.git
 
-### 2 Opening the project
+### Opening the project
 
 -   By using the cd command, move to project directory and open the cloned folder using code.
 
 - Open the index.html in your browser using the liveserver.
 
-### 3 Add New Ramen Dishes
+### Add New Ramen Dishes
 
 - Fill in the form and click on the "Create" Button to add a new Ramen dish.
